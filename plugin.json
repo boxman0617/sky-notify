@@ -1,0 +1,28 @@
+{
+	"name": "sky-notify",
+	"description": "SKY's Notification plugin",
+	"version": "0.0.1",
+	"keywords": ["sky", "sms", "push", "notify", "notification", "email"],
+	"bugs": {
+		"url": "https://github.com/boxman0617/sky-notify/issues",
+		"email": "alan@deeplogik.com"
+	},
+	"license": "MIT",
+	"creators": [
+		{
+			"name": "Alan Tirado",
+			"email": "alan@deeplogik.com",
+			"url": "http://deeplogik.com"
+		}
+	],
+  "localInstall": "install",
+  "onLoad": "up.php",
+	"onUse": "create_notify_table.php",
+	"file": "SkyNotify.plugin.php",
+  "getID": "SkyNotify",
+	"repos": [
+		{"git": "https://github.com/boxman0617/sky-notify.git"}
+	],
+	"phpVersion": ">=5.0.0",
+  "SKYVersion": ">=1.0.0"
+}
